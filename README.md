@@ -77,7 +77,9 @@
 
 ### modify {{HOST}} and {{PORT}} configuration for zlims.config.json file 
 > local is development back-end server and prot
+>
 > production is production back-end server and prot
+>
 > For you example: api: "http://http://zlims-qa-02"
 
 	{
