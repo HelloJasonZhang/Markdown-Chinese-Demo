@@ -80,7 +80,7 @@
 > production is production back-end server and prot
 > For you example: api: "http://http://zlims-qa-02"
 
-    	{
+	{
 	  "version": "0.1.0",
 	  "env": {
 	    "local": {
