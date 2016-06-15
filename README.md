@@ -74,4 +74,23 @@
 
 * 在行首加点
 行首输入*，空格后输入内容即可
-    
+
+### modify {{HOST}} and {{PORT}} configuration for zlims.config.json file 
+> local is development back-end server and prot
+> production is production back-end server and prot
+> For you example: api: "http://http://zlims-qa-02"
+		{
+		  "version": "0.1.0",
+		  "env": {
+		    "local": {
+		      "EnvironmentConfig": {
+		        "api": "http://{{HOST}}:{{PORT}}"
+		      }
+		    },
+		    "production": {
+		      "EnvironmentConfig": {
+		        "api": "http://{{HOST}}:{{PORT}}"
+		      }
+		    }
+		  }
+		}
